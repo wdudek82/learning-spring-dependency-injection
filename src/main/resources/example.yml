@@ -1,0 +1,39 @@
+# this is a comment
+
+# property
+name: John
+
+# list
+names:
+  - John
+  - Paul
+  - Ringo
+
+# hashmap
+book:
+  author: Joe Buck
+  publisher: random house
+
+# booleans
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no # and also: No, false, False
+
+# string
+string_val: "This is it's quote"
+
+# multiline
+include_new_lines: |  # preserve \n
+  asdf adfs asdf
+  adfs adfd dsaf
+  adfs daff dfaa
+
+ignore_new_lines: >  # ignore \n
+  this is
+  just one long
+  string
+  
