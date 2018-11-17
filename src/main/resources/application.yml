@@ -7,3 +7,12 @@ guru:
     username: JMS Username
     password: somepasswd
     url: SomeURL
+
+
+---
+spring:
+  profiles: de
+
+guru:
+  jms:
+    username: JMS Username $$$$$ German
