@@ -114,4 +114,14 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         System.out.println("## Application context has been set");
     }
+
+    @Override
+    public <T> ObjectProvider<T> getBeanProvider(Class<T> aClass) {
+        return null;
+    }
+
+    @Override
+    public <T> ObjectProvider<T> getBeanProvider(ResolvableType resolvableType) {
+        return null;
+    }
 }
